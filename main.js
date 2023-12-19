@@ -59,7 +59,7 @@ export const riceCooker = {
 
 keepWarm(){
 	if(this.ricePresent){
-		console.log("the rice is now..);
+		console.log("the rice is now..");
 		if(this.riceCooked){
 			if(!this.heatingInProgress){
 				this.heatingInProgress = true;
