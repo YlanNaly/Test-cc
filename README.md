@@ -3,7 +3,7 @@
 ### Code Original :
 
 - **Complexité Temporelle** :
-  - Les méthodes de `riceCooker` effectuent des actions directes sans itérer sur des structures de données, donc elles ont une complexité temporelle relativement constante.
+  - Les méthodes de `riceCooker` effectuent des actions directes sans itérer sur des structures de données, donc elles ont une complexité temporelle relativement constante O(1) .
   - La fonction `simulateRiceCooker()` utilise une boucle `while` pour demander en continu des entrées utilisateur et exécute des actions en fonction de ces entrées. Sa complexité temporelle dépend du nombre d'itérations dans la boucle, basé sur l'interaction utilisateur.
 
 - **Complexité Spatiale** :
